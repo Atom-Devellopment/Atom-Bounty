@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Documents/Développement ChronosMarket/LOCALHOST/LocalHost 1.8 vanilla/server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Documents/Serveur/Minozia/mcp/jars/libraries/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/paper-1.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/purpur-1.20.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.16.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.18.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.18.2-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.19.3-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.19.4-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.19-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.20.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Bureau/obf/NMSLib-master/libs/spigot-1.20.2-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Documents/Développement ChronosMarket/LOCALHOST/LocalHost 1.8 vanilla/plugins/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olive/OneDrive/Documents/Développement ChronosMarket/LOCALHOST/LocalHost 1.8 vanilla/plugins/AtomApi.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,6 @@
+name: AtomBounty
+author: Atom-Studio
+version: 1.0
+main: fr.atom.bounty.Bounty
+depend: [AtomApi]
+

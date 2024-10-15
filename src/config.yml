@@ -1,0 +1,65 @@
+###################################################################################
+#             _                             ____                    _             #       
+#        /\  | |                           |  _ \                  | |            #       
+#       /  \ | |_ ___  _ __ ___    ______  | |_) | ___  _   _ _ __ | |_ _   _     #       
+#      / /\ \| __/ _ \| '_ ` _ \  |______| |  _ < / _ \| | | | '_ \| __| | | |    #       
+#     / ____ \ || (_) | | | | | |          | |_) | (_) | |_| | | | | |_| |_| |    #       
+#    /_/    \_\__\___/|_| |_| |_|          |____/ \___/ \__,_|_| |_|\__|\__, |    #       
+#                                                                        __/ |    #       
+#                                                                       |___/     #       
+###################################################################################
+
+#### General Configuration ########################################################
+options:
+  minimum_price: 500
+  public_message: false
+###################################################################################
+
+#### Inventory Configuration ######################################################
+inventory:
+  name: "Bounty List"
+  contour: "CORNER" #BORDER / #CORNER
+  contour_color: "WHITE" #BLACK / #BLUE / #BROWN / #CYAN / #GRAY / #GREEN / #LIGHT_BLUE / #LIME / #MAGENTA / #ORANGE / #PINK / #PURPLE / #RED / #SILVER / #WHITE / #YELLOW
+  prime_slot: [11,12,13,14,15, 20,21,22,23,24, 29,30,31,32,33, 38,39,40,41,42]
+  items_per_page: 20
+  prime_profile:
+    icon: "PAPER"
+    name: "&6&lVictim&7: &e%name%"
+    lore:
+      - ""
+      - "&7&lBounty Value&7: &a%price%&e$"
+      - "&7&lBounty Placer&7: &a%author%"
+      - ""
+      - "&7&lBounty Date&7: &6%date%"
+  arrow_left:
+    icon: "ARROW"
+    name: "&ePrevious Page"
+    slot: 48
+  arrow_right:
+    icon: "ARROW"
+    name: "&eNext Page"
+    slot: 50
+  player_profile:
+    icon: "ENDER_CHEST"
+    name: "&6&lUsername&7: &e%player%"
+    slot: 49
+    lore:
+      - ""
+      - "&7&lYour Money&7: &e%money%"
+      - ""
+    message-if-has-prime: "&7You have a bounty of &6&l%price%&e$ &7on your head!"
+    message-if-not-have-prime: "&cYou have no bounty on your head!"
+###################################################################################
+
+#### Messages Configuration #######################################################
+messages:
+  player_dont_have_enought_money: "&cYou don't have enough money!"
+  target_have_already_prime_on_is_head: "&cThis player already has a bounty on their head!"
+  bounty_placed_attacker: "&eYou placed a bounty of &6%price%$ &eon player &c%victim% &e!"
+  bounty_placed_victim: "&ePlayer &6%attacker% &eplaced a bounty of &6%price%$ &eon your head!"
+  bounty_placed_broadcast: "&ePlayer &6%attacker% &eplaced a bounty of &6%price%$ &eon player &c%victim% &e!"
+  bounty_claimed_killer: "&eYou killed &c%victim% &eand claimed the bounty of &6%price%$ &ethat was on their head."
+  bounty_claimed_attacker: "&ePlayer &6%killer% &ekilled &c%victim% &eand claimed the bounty you placed on their head."
+  minimum_money: "&cYou must set at least %minimum_price%$"
+  reload_configuration: "&8[&6&lPrime§8] &aConfiguration has been reloaded successfully"
+###################################################################################
